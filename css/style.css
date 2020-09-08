@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Work Sans', sans-serif; */
+/* Global Styles
+00a6fb, 0582ca, 006494, 003554, 051923 - bright to dark
+0169a6, 0a7ab7, 0a8dcc, 00aadf, 9cd6f0
+Six sections- 48cae4, 00b4d8, 0096c7, 0077b6, 023e8a, 03045e - lighter to darker shade
+-------------------------------------------------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    color: #051923;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img{
+    width: 300px;
+    border: 1.4px solid #fff;
+    border-radius: 10px;
+}
+a{
+    color: #ffe66d;
+}
+a:hover{
+    text-decoration: none;
+}
+h2{
+    font-size: 200%;
+    margin: 0;
+}
+h3{
+    font-size: 160%;
+}
+h4{
+    font-size: 140%;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile Section 
+------------------------------------------------------------------------------------*/
+header{
+    background-color: #48cae4;
+    color: #1f271b;
+}
+#name{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    /* margin:0; */
+}
+
+/* Skills Section 
+------------------------------------------------------------------------------------*/
+.skills{
+    background-color: #0096c7;
+    color: #051923;
+}
+
+/* Projects 
+------------------------------------------------------------------------------------*/
+.projects{
+    background-color: #0582ca;
+}
+.projects a{
+    color: #2F3061;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background-color: #2c3e50;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+.projects a:hover{
+    background: rgba(47, 49, 97, 80%);
+    color: aliceblue;
+}
+.project-section img{
+    float: left;
+    margin-right: 12px;
+}
+.project-section{
+    overflow: hidden;
+}
+
+/* Work Experience 
+-------------------------------------------------------------------------------------*/
+.work-experience{
+    background-color: #0077b6;
+    /* color: #edf2ef; */
+    color: #e9ecef;
+}
+
+/* Education Section 
+-------------------------------------------------------------------------------------*/
+.education{
+    background-color: #023e8a;
+    color: #e9ecef;
+}
+
+/* Contact Info 
+-------------------------------------------------------------------------------------*/
+
+footer{
+    background-color: #212529;
+    color: #e9ecef;
+    
+}
+.footer-wrap{
+    display: inline-block;
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0 0 60%;
+    justify-content: center;
+}
