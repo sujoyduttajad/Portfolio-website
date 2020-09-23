@@ -10,6 +10,49 @@
 0169a6, 0a7ab7, 0a8dcc, 00aadf, 9cd6f0
 Six sections- 48cae4, 00b4d8, 0096c7, 0077b6, 023e8a, 03045e - lighter to darker shade
 -------------------------------------------------------------------------------*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+}
+@media only screen and (max-width: 480px){
+section{
+    font-size: 37px;
+    min-height: 90vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    }
+header{
+    font-size: 37px;
+    min-height: 90vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #48cae4;
+    clear: both;
+    text-align: center;
+    box-sizing: border-box;
+      }
+footer{
+    font-size: 37px;
+    text-align: left;
+    margin-left: 15px !important;
+    margin-right: 15px;
+    width: 100%;
+    margin-bottom: 0 !important;
+    background-color: #212529;
+    color: #e9ecef;    
+}     
+.icons{
+    padding: 5px;
+    padding-right: 5px;
+    margin: 0 10px 0 0;
+}
+h2, p{
+    margin-left: 15px !important;
+    margin-right: 15px;
+} 
+  }
 html{
     box-sizing: border-box;
 }
@@ -50,7 +93,34 @@ h4{
     margin: 0 auto;
     padding: 60px 0;
 }
-
+.header{
+    background-color: #48cae4;
+    color: #1f271b;
+}
+.section__one{
+    background-color: #0096c7;
+    color: #051923;
+}
+.section__two{
+    background-color: #0582ca;
+}
+.section__three{
+    background-color: #0077b6;
+    color: #e9ecef;
+}
+.section__four{
+    background-color: #023e8a;
+    color: #e9ecef;
+}
+.section__five{
+    background-color: #212529;
+    color: #e9ecef;
+}
+.icons{
+    padding: 5px;
+    padding-right: 5px;
+    margin: 0 10px 0 0;
+}
 /* Profile Section 
 ------------------------------------------------------------------------------------*/
 header{
@@ -104,7 +174,6 @@ header{
 -------------------------------------------------------------------------------------*/
 .work-experience{
     background-color: #0077b6;
-    /* color: #edf2ef; */
     color: #e9ecef;
 }
 
@@ -120,13 +189,14 @@ header{
 
 footer{
     background-color: #212529;
-    color: #e9ecef;
-    
-}
-.footer-wrap{
+    color: #e9ecef;    
     display: inline-block;
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
-    padding: 60px 0 0 60%;
-    justify-content: center;
+    padding: 60px 0 0 60;
+    justify-content: center;  
 }
+ul.da{
+    list-style-type: none !important;
+}
+

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sujoy Dutta/Resume/Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <div class="content-wrap">
+        <div class="content-wrap header">
           <h1 id="name">Sujoy Dutta</h1>
           <h2>Front-End Developer</h2>
 
@@ -25,21 +26,21 @@
 
       <!-- ***********************  Skiils / Technical skills  *********************** -->
       <section class="skills">
-        <div class="content-wrap">
+        <div class="content-wrap section__one">
           <h2>Tech Skills</h2>
           <ul>
-              <li><strong>Frontend Technologies -</strong> JavaScript(ES6+, Promise, Closure), React.js, Node.js, HTML5, CSS3, Bootstrap4, React-Bootstrap, Material UI, DOM,
-                Responsive web design, Webpack, Moment.js, JSON, AJAX, jQuery , Backbone.js, ESLint Tool</li>
+              <li><strong>Frontend Technologies -</strong> JavaScript(ES6+, Promise, Closure), React.js, Node.js, HTML5, CSS3, Bootstrap4, React-Bootstrap, Material UI, Styled-Component,
+                Responsive web design, Webpack, Moment.js, JSON, AJAX, jQuery , Backbone.js(Basic)</li>
               <li><strong>Back-end -</strong> Gradle, REST, REST API, JAVA, J2EE</li>
               <li><strong>Database -</strong> MySQL, Oracle</li>
-              <li><strong>Tools & Technologies -</strong> GIT, Git Lab, Github, Docker, Jenkins, Postman, Worked in an environment of Agile(Scrum), JIRA & Confluence, Atom, IntelliJ, Sublime, VSCode</li>  
+              <li><strong>Tools & Technologies -</strong> GIT, Git Lab, Github, Docker, Jenkins, Postman, ESLint Tool, Worked in an environment of Agile(Scrum), JIRA & Confluence, Atom, IntelliJ, Sublime, VSCode</li>  
           </ul>  
         </div>
       </section>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <div class="content-wrap">
+        <div class="content-wrap section__two">
           <h2>Featured Projects</h2>
           <p>All my projects are found at Github.   
             For more information please visit my Github repository -  <a href="https://github.com/sujoyduttajad" target="_blank">My Github Repos</a>.</p>
@@ -71,16 +72,43 @@
           </span>  
           </section>
 
+
+          <!-- Copy the whole <section> block to add more projects. -->
+
+          <section class="project-section">
+            <h3>Youtube-clone</h3>
+            <img src="./images/youtube-clone.png" alt="Screenshot of the project" >
+            <p>This is a react web app which is technically a clone of the youtube. It has almost all the functionality of the youtube. 
+              This project demonstrates the power of React and react-roter. It is styled using Flexbox which handles the responsiveness 
+              and positioning of each of the components and Material-UI is used for getting the flat looking style that the original youtube has. 
+              This is hoisted using Firebase. <br>
+              
+              <br><strong>Tech Stack</strong> ---- React, React-router, Firebase, Material-UI, Flexbox, CSS3, HTML5 is 
+              used and also all the classnames used <strong>BEM_convention</strong> it is completely responsive also.<br>
+              <strong>Future Scope</strong> -- Next I am planning to add user authentication feature using Firebase. 
+              Search page will be routed to some of the relevant pages and the ability to route to relevant videos will also be upgraded</p>
+          <span>    
+            <a class="btn" href="https://github.com/sujoyduttajad/youtube-clone" target="_blank">View project in Github</a>
+            <a class="btn" href="https://clone-361ba.web.app" target="_blank">For Live Demo! Have fun by playing it</a>
+          </span>  
+          </section>
+
+
+          <!-- Copy the whole <section> block to add more projects. -->
+
           <section class="project-section">
             <h3>Color-Guessing-Game</h3>
             <img src="./images/Color-guessing-game.png" alt="Screenshot of the project" >
-            <p>A JavaScript color guessing game. This is a guessing game built with JavaScript where users have to guess the correct color from a color palette which matches to the RGB() color code displayed. It has two modes EASY and HARD choose which ever you want. The EASY mode consists of 3 boxes so the probability is high in choosing the correct color. The HARD will have 6 boxes and hence the probability is less in choosing the correct color.<br>
+            <p>A JavaScript color guessing game. This is a guessing game built with JavaScript where users have to guess the correct color 
+              from a color palette which matches to the RGB() color code displayed. It has two modes EASY and HARD choose which ever you want. 
+              The EASY mode consists of 3 boxes so the probability is high in choosing the correct color. The HARD will have 6 boxes and 
+              hence the probability is less in choosing the correct color.<br>
               <strong>Tech Stack</strong> ---- JavaScript, HTML5, CSS3 is used and it is responsive also.<br>
-              <strong>Future Scope</strong> -- Next I am planning to upgrade to difficult levels and add a database to show case the scores. Also a score-keeper app will be added with this app to monitor the progress along with authentication to track users.</p>
+              <strong>Future Scope</strong> -- Next I am planning to upgrade to difficult levels and add a database to show case the scores. 
+              Also a score-keeper app will be added with this app to monitor the progress along with authentication to track users.</p>
           <span>    
             <a class="btn" href="https://github.com/sujoyduttajad/Color-Game-Project" target="_blank">View project in Github</a>
             <a class="btn" href="https://cranky-meninsky-8035ee.netlify.app" target="_blank">For Live Demo! Have fun by playing it</a>
-            <!-- <a class="btn" href="https://stupefied-goodall-28909e.netlify.app" target="_blank">For Live Demo</a> -->
           </span>  
           </section>
           <!-- End of Project block. -->
@@ -89,7 +117,7 @@
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
-        <div class="content-wrap">
+        <div class="content-wrap section__three">
             <h2>Work Experience</h2>
             <!-- <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> -->
 
@@ -97,7 +125,7 @@
             <section>
               <h4>1) Full Stack Developer</h4>
               <h3>MetricStream Infotech Pvt. Ltd</h3>
-              <p>Date at job</p>
+              <p>Date at job - June 2019 - July 2020</p>
               <h4><strong>M7 PROJECT - BUSINESS RULES</strong></h4>
               <ul>
                 <li><strong>Roles and Responsibility -</strong> Developed as well as collaborated with different teams to built a centralized
@@ -109,12 +137,28 @@
                   Acyclic graphs – DAG), save it in ElasticSearch, execute it on server-side returning true or false, convert it
                   to JavaScript and send to UI.</li>
               </ul>
+
+              <ul>
+                <li><strong>Roles and Responsibility -</strong> Developed complex features using JavaScript, Java, Hash Maps, and Regex 
+                  that can do the relaxation of Special Characters in specific fields of MetricStream Web-based App by 65%, tested, and 
+                  delivered 1 byte, and multi-byte special characters, and improved user experience by 46%.</li>
+                <li><strong>Environment -</strong>>  JavaScript, Java, Regex</li>
+                <li><strong>Description -</strong> Analysis and building features for the relaxation of Special Characters ranging 
+                  from 1 byte to multi-byte characters by using Regex, Java, JavaScript, and in-house API.</li>
+              </ul>
+
+              <ul>Innovation Project - 
+                <li><strong>Roles and Responsibility -</strong> Built and developed an ML/AI chatbot engine for the MetricStream Web App. 
+                  The goal was to make a AI Chatbot that can detect and ressolve the causes of support issues.</li>
+                <li><strong>Environment -</strong>> Python, Tensorflow</li>
+                <li><strong>Description -</strong> Oddly detection, decision making, and Identifying the root cause for our support issues using trend analysis.</li>
+              </ul>
             </section>
 
             <section>
               <h4>2) Project Engineer</h4>
               <h3>Wipro Technologies</h3>
-              <p>Date at job</p>
+              <p>Date at job - July 2018 - May 2019</p>
               <h4>STATISTIC OUTPUT MANAGEMENT SYSTEM(SOMS)</h4>
               <ul>
                 <li><strong>Role –</strong> Software Developer</li>
@@ -131,7 +175,7 @@
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-        <div class="content-wrap">
+        <div class="content-wrap section__four">
               <h2>Education</h2>
 
               <!-- Copy this whole <section> block to add more schools. -->
@@ -148,25 +192,33 @@
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <div class="content-wrap">
+        <div class="content-wrap section__five">
           <div>
-            <h2>Let's Keep in Touch!</h2>
+              <h2>Let's Keep in Touch!</h2>
 
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <ul>
-              <li><a href="mailto:sujoyduttajad@gmail.com">sujoyduttajad@gmail.com</a></li>
-              <!-- <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li> -->
-              <li><a href="https://github.com/sujoyduttajad" target="_blank">Github</a></li>
-              <li><a href="https://www.linkedin.com/in/sujoy-dutta-b41746a9/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://www.facebook.com/sujoy.dutta.3348/" target="_blank">Facebook</a></li>
-              <li><a href="https://www.instagram.com/sujoy_quirky/?hl=en" target="_blank">Instagram</a></li>
-            </ul>
-        </div>
-        <div class="footer-wrap">
-          Contact - +91 9556710693 , 6201108952
-          <br>
-          @2020 - Sujoy Dutta
-        </div>
+              <!-- Social media and contact links. Add or remove any networks. -->
+              <ul class="da">
+                <li class="icons"><i class="fa fa-google-plus-square" style="font-size:24px"></i>
+                  <a href="mailto:sujoyduttajad@gmail.com">sujoyduttajad@gmail.com</a></li>
+                <li class="icons"><i class="fa fa-github" style="font-size:24px"></i>
+                  <a href="https://github.com/sujoyduttajad" target="_blank">
+                  Github</a></li>
+                <li class="icons"><i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                  <a href="https://www.linkedin.com/in/sujoy-dutta-b41746a9/" target="_blank">
+                  LinkedIn</a></li>
+                <li class="icons"><i class="fa fa-facebook-square" style="font-size:24px"></i>
+                  <a href="https://www.facebook.com/sujoy.dutta.3348/" target="_blank">
+                  Facebook</a></li>
+                <li class="icons"><i class="fa fa-instagram" style="font-size:24px"></i>
+                  <a href="https://www.instagram.com/sujoy_quirky/?hl=en" target="_blank">
+                  Instagram</a></li>
+              </ul>
+          </div>
+            <br>
+            <br>          
+            <p>Contact - +91 9556710693 , 6201108952</p>
+            <p>@2020 - Sujoy Dutta</p>
+          
       </div> 
       </footer>
     </main>
